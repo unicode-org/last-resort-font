@@ -15,8 +15,6 @@ The use of the *Last Resort* font is covered under the terms of the [SIL Open Fo
 
 The latest pre-built binary version of the *Last Resort* font, which corresponds to [Unicode Version 13.0.0](https://www.unicode.org/versions/Unicode13.0.0/), can be easily downloaded from the [Latest Release](https://github.com/unicode-org/last-resort-font/releases/latest/). This font may be updated for future versions of the Unicode Standard as time and resources permit.
 
-**NOTE**: The *Last Resort* font’s 'cmap' table includes only a [Format 13](https://docs.microsoft.com/en-us/typography/opentype/spec/cmap#format-13-many-to-one-range-mappings) (*Many-to-one range mappings*) subtable, which may not be supported in some environments.
-
 ## Description
 
 The glyphs of the *Last Resort* font are used as the backup of “last resort” to any other font: if the font cannot represent any particular Unicode character, the appropriate “missing” glyph from the *Last Resort* font is displayed instead. This provides users with the ability to more easily discern what type of character it is, and provides a clue as to what type of font they would need to display the characters properly. For more information, see *The Unicode Standard*, [Section 5.3](https://www.unicode.org/versions/Unicode13.0.0/ch05.pdf#G7730), *Unknown and Missing Characters*.
