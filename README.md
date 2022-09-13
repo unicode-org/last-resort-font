@@ -13,21 +13,21 @@ The use of the *Last Resort* font is covered by the terms of the [SIL Open Font 
 
 ## Downloading the fonts
 
-The latest pre-built binaries of the *Last Resort* fonts, which correspond to [Unicode Version 14.0.0](https://www.unicode.org/versions/Unicode14.0.0/), can be easily downloaded from the [Latest Release](https://github.com/unicode-org/last-resort-font/releases/latest/). These fonts may be updated for future versions of the Unicode Standard as time and resources permit.
+The latest pre-built binaries of the *Last Resort* fonts, which correspond to [Unicode Version 15.0.0](https://www.unicode.org/versions/Unicode15.0.0/), can be easily downloaded from the [Latest Release](https://github.com/unicode-org/last-resort-font/releases/latest/). These fonts may be updated for future versions of the Unicode Standard as time and resources permit.
 
 ## Last Resort &amp; Last Resort High-Efficiency
 
 This repository includes two versions of the *Last Resort* font: *Last Resort* and *Last Resort High-Efficiency*. Although both fonts can be installed at the same time—because they have different names—you are encouraged to download and install only the one that is expected to work in the environments that you use:
 
-* The file *LastResort-Regular.ttf* is a font named *Last Resort*, and its 'cmap' table includes a [Format 12](https://docs.microsoft.com/en-us/typography/opentype/spec/cmap#format-12-segmented-coverage) (*Segmented coverage*) subtable that is supported in virtually all modern environments. This font is 8MB and includes 5,252 glyphs. Download and install this font if you are unsure which one to use.
+* The file *LastResort-Regular.ttf* is a font named *Last Resort*, and its 'cmap' table includes a [Format 12](https://docs.microsoft.com/en-us/typography/opentype/spec/cmap#format-12-segmented-coverage) (*Segmented coverage*) subtable that is supported in virtually all modern environments. This font is 8MB and includes 5,352 glyphs. Download and install this font if you are unsure which one to use.
 
-* The file *LastResortHE-Regular.ttf* is a font named *Last Resort High-Efficiency*, and its 'cmap' table includes the more efficient—for this type of font—[Format 13](https://docs.microsoft.com/en-us/typography/opentype/spec/cmap#format-13-many-to-one-range-mappings) (*Many-to-one range mappings*) subtable that may not be supported in some environments, such as most Windows and Adobe apps. Therefore, this font, which is considerably smaller (500K) and with fewer glyphs (354), requires greater care when downloaded and installed.
+* The file *LastResortHE-Regular.ttf* is a font named *Last Resort High-Efficiency*, and its 'cmap' table includes the more efficient—for this type of font—[Format 13](https://docs.microsoft.com/en-us/typography/opentype/spec/cmap#format-13-many-to-one-range-mappings) (*Many-to-one range mappings*) subtable that may not be supported in some environments, such as most Windows and Adobe apps. Therefore, this font, which is considerably smaller (500K) and with fewer glyphs (361), requires greater care when downloaded and installed.
 
-Both fonts’ 'cmap' tables include a stub (aka empty) [Format 4](https://docs.microsoft.com/en-us/typography/opentype/spec/cmap#format-4-segment-mapping-to-delta-values) (*Segment mapping to delta values*) subtable, which is a Windows OS requirement.
+Both fonts’ 'cmap' tables include a [Format 4](https://docs.microsoft.com/en-us/typography/opentype/spec/cmap#format-4-segment-mapping-to-delta-values) (*Segment mapping to delta values*) subtable, which is a Windows OS requirement. That of the *Last Resort High-Efficiency* font is a stub (aka empty) subtable.
 
 ## Description
 
-The glyphs of the *Last Resort* fonts are used as the backup of “last resort” to any other font: if a font cannot represent any particular Unicode character, the appropriate “missing” glyph from the *Last Resort* fonts is displayed instead. This provides users with the ability to more easily discern what type of character it is, and provides a clue as to what type of font they would need to display the characters properly. For more information, see *The Unicode Standard*, [Section 5.3](https://www.unicode.org/versions/Unicode14.0.0/ch05.pdf#page=8), *Unknown and Missing Characters*.
+The glyphs of the *Last Resort* fonts are used as the backup of “last resort” to any other font: if a font cannot represent any particular Unicode character, the appropriate “missing” glyph from the *Last Resort* fonts is displayed instead. This provides users with the ability to more easily discern what type of character it is, and provides a clue as to what type of font they would need to display the characters properly. For more information, see *The Unicode Standard*, [Section 5.3](https://www.unicode.org/versions/Unicode15.0.0/ch05.pdf), *Unknown and Missing Characters*.
 
 Overall, there are a number of advantages to using the *Last Resort* fonts for unrepresentable characters:
 
@@ -40,7 +40,7 @@ Unicode blocks are illustrated by a representative glyph from the block, chosen 
 
 ![Sinhala](./images/LRSinhala.gif)&nbsp;![Hiragana](./images/LRHiragana.gif)&nbsp;![EgyptianHieroglyphs](./images/LREgyptianHieroglyphs.gif)&nbsp;![TransportMapSymbol](./images/LRTransportMapSymbols.gif)
 
-There are two particularly special types of glyphs in the fonts. One of the types represents any unassigned code point in an existing block. The other type represents the 66 noncharacter code points: U+FDD0..U+FDEF, U+FFFE..U+FFFF, U+1FFFE..U+1FFFF, U+2FFFE..U+2FFFF, U+3FFFE..U+3FFFF, U+4FFFE..U+4FFFF, U+5FFFE..U+5FFFF, U+6FFFE..U+6FFFF, U+7FFFE..U+7FFFF, U+8FFFE..U+8FFFF, U+9FFFE..U+9FFFF, U+AFFFE..U+AFFFF, U+BFFFE..U+BFFFF, U+CFFFE..U+CFFFF, U+DFFFE..U+DFFFF, U+EFFFE..U+EFFFF, U+FFFFE..U+FFFFF, and U+10FFFE..U+10FFFF.
+There are two particularly special types of glyphs in the fonts. One of the types represents any unassigned code point in an existing block. The other type represents the 66 noncharacter code points: FDD0..FDEF, FFFE..FFFF, 1FFFE..1FFFF, 2FFFE..2FFFF, 3FFFE..3FFFF, 4FFFE..4FFFF, 5FFFE..5FFFF, 6FFFE..6FFFF, 7FFFE..7FFFF, 8FFFE..8FFFF, 9FFFE..9FFFF, AFFFE..AFFFF, BFFFE..BFFFF, CFFFE..CFFFF, DFFFE..DFFFF, EFFFE..EFFFF, FFFFE..FFFFF, and 10FFFE..10FFFF.
 
 ![UndefinedBMP](./images/LRUndefinedBMP.gif)&nbsp;![UndefinedPlane3](./images/LRUndefinedPlane3.gif)&nbsp;![NoncharacterBMP1](./images/LRNoncharacterBMP1.gif)&nbsp;![NoncharacterBMP2](./images/LRNoncharacterBMP2.gif)
 
