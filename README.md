@@ -9,7 +9,7 @@
 
 ## License
 
-The use of the *Last Resort* font is covered by the terms of the [SIL Open Font License, Version 1.1](https://scripts.sil.org/OFL) license. 
+The use of the *Last Resort* font is covered by the terms of the [SIL Open Font License, Version 1.1](https://scripts.sil.org/OFL) license.
 
 ## Downloading the fonts
 
@@ -57,3 +57,12 @@ Updated TrueType fonts may be issued shortly after a new version of the Unicode 
 ## Getting Involved
 
 Although the *Last Resort Font* repository is considered to be stable with no guarantee that it will be updated, suggestions can be provided by submitting a [new issue](https://github.com/unicode-org/last-resort-font/issues/new).
+
+
+### Copyright & Licenses
+
+Copyright © 1998-2023 Unicode, Inc. Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the United States and other countries.
+
+The project is released under [LICENSE](./LICENSE).
+
+A CLA is required to contribute to this project - please refer to the [CONTRIBUTING.md](https://github.com/unicode-org/.github/blob/main/.github/CONTRIBUTING.md) file (or start a Pull Request) for more information.
