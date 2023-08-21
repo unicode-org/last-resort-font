@@ -7,10 +7,6 @@
 * Unassigned (reserved for future assignment)
 * A noncharacter
 
-## License
-
-The use of the *Last Resort* font is covered by the terms of the [SIL Open Font License, Version 1.1](https://scripts.sil.org/OFL) license. 
-
 ## Downloading the fonts
 
 The latest pre-built binaries of the *Last Resort* fonts, which correspond to [Unicode Version 15.0.0](https://www.unicode.org/versions/Unicode15.0.0/), can be easily downloaded from the [Latest Release](https://github.com/unicode-org/last-resort-font/releases/latest/). These fonts may be updated for future versions of the Unicode Standard as time and resources permit.
@@ -57,3 +53,14 @@ Updated TrueType fonts may be issued shortly after a new version of the Unicode 
 ## Getting Involved
 
 Although the *Last Resort Font* repository is considered to be stable with no guarantee that it will be updated, suggestions can be provided by submitting a [new issue](https://github.com/unicode-org/last-resort-font/issues/new).
+
+
+### Copyright & Licenses
+
+The use of the *Last Resort* font is covered by the terms of the [SIL Open Font License, Version 1.1](https://scripts.sil.org/OFL) license.
+
+Copyright © 1998-2023 Unicode, Inc. Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the United States and other countries.
+
+The project is released under [LICENSE](./LICENSE).
+
+A CLA is required to contribute to this project - please refer to the [CONTRIBUTING.md](https://github.com/unicode-org/.github/blob/main/.github/CONTRIBUTING.md) file (or start a Pull Request) for more information.
