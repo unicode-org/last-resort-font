@@ -9,15 +9,15 @@
 
 ## Downloading the fonts
 
-The latest pre-built binaries of the *Last Resort* fonts, which correspond to [Unicode Version 15.0.0](https://www.unicode.org/versions/Unicode15.0.0/), can be easily downloaded from the [Latest Release](https://github.com/unicode-org/last-resort-font/releases/latest/). These fonts may be updated for future versions of the Unicode Standard as time and resources permit.
+The latest pre-built binaries of the *Last Resort* fonts, which correspond to [Unicode Version 15.1.0](https://www.unicode.org/versions/Unicode15.1.0/), can be easily downloaded from the [Latest Release](https://github.com/unicode-org/last-resort-font/releases/latest/). These fonts may be updated for future versions of the Unicode Standard as time and resources permit.
 
 ## Last Resort &amp; Last Resort High-Efficiency
 
 This repository includes two versions of the *Last Resort* font: *Last Resort* and *Last Resort High-Efficiency*. Although both fonts can be installed at the same time—because they have different names—you are encouraged to download and install only the one that is expected to work in the environments that you use:
 
-* The file *LastResort-Regular.ttf* is a font named *Last Resort*, and its 'cmap' table includes a [Format 12](https://docs.microsoft.com/en-us/typography/opentype/spec/cmap#format-12-segmented-coverage) (*Segmented coverage*) subtable that is supported in virtually all modern environments. This font is 8MB and includes 5,352 glyphs. Download and install this font if you are unsure which one to use.
+* The file *LastResort-Regular.ttf* is a font named *Last Resort*, and its 'cmap' table includes a [Format 12](https://docs.microsoft.com/en-us/typography/opentype/spec/cmap#format-12-segmented-coverage) (*Segmented coverage*) subtable that is supported in virtually all modern environments. This font is 8MB and includes 5,372 glyphs. Download and install this font if you are unsure which one to use.
 
-* The file *LastResortHE-Regular.ttf* is a font named *Last Resort High-Efficiency*, and its 'cmap' table includes the more efficient—for this type of font—[Format 13](https://docs.microsoft.com/en-us/typography/opentype/spec/cmap#format-13-many-to-one-range-mappings) (*Many-to-one range mappings*) subtable that may not be supported in some environments, such as most Windows and Adobe apps. Therefore, this font, which is considerably smaller (500K) and with fewer glyphs (361), requires greater care when downloaded and installed.
+* The file *LastResortHE-Regular.ttf* is a font named *Last Resort High-Efficiency*, and its 'cmap' table includes the more efficient—for this type of font—[Format 13](https://docs.microsoft.com/en-us/typography/opentype/spec/cmap#format-13-many-to-one-range-mappings) (*Many-to-one range mappings*) subtable that may not be supported in some environments, such as most Windows and Adobe apps. Therefore, this font, which is considerably smaller (500K) and with fewer glyphs (362), requires greater care when downloaded and installed.
 
 Both fonts’ 'cmap' tables include a [Format 4](https://docs.microsoft.com/en-us/typography/opentype/spec/cmap#format-4-segment-mapping-to-delta-values) (*Segment mapping to delta values*) subtable, which is a Windows OS requirement. That of the *Last Resort High-Efficiency* font is a stub (aka empty) subtable.
 
@@ -46,14 +46,13 @@ The *Last Resort* glyphs were drawn by Apple Inc., Michael Everson of [Evertype]
 
 ## Building the fonts from source
 
-**NOTE**: *The sources and build scripts may be added after Unicode Version 15.0.0 has been released (2022), and as time and resources permit.*
+**NOTE**: *The sources and build scripts may be added after Unicode Version 15.1.0 has been released (2023), and as time and resources permit.*
 
 Updated TrueType fonts may be issued shortly after a new version of the Unicode Standard has been released.
 
 ## Getting Involved
 
 Although the *Last Resort Font* repository is considered to be stable with no guarantee that it will be updated, suggestions can be provided by submitting a [new issue](https://github.com/unicode-org/last-resort-font/issues/new).
-
 
 ### Copyright & Licenses
 
