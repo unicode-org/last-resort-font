@@ -56,10 +56,8 @@ Although the *Last Resort Font* repository is considered to be stable with no gu
 
 ### Copyright & Licenses
 
-The use of the *Last Resort* font is covered by the terms of the [SIL Open Font License, Version 1.1](https://scripts.sil.org/OFL) license.
-
 Copyright © 1998-2023 Unicode, Inc. Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the United States and other countries.
 
-The project is released under [LICENSE](./LICENSE).
+The project is released under the [SIL Open Font License, Version 1.1](./LICENSE).
 
 A CLA is required to contribute to this project - please refer to the [CONTRIBUTING.md](https://github.com/unicode-org/.github/blob/main/.github/CONTRIBUTING.md) file (or start a Pull Request) for more information.
