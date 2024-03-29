@@ -56,7 +56,7 @@ Although the *Last Resort Font* repository is considered to be stable with no gu
 
 ### Copyright & Licenses
 
-Copyright © 1998-2023 Unicode, Inc. Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the United States and other countries.
+Copyright © 1998-2024 Unicode, Inc. Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the United States and other countries.
 
 The project is released under the [SIL Open Font License, Version 1.1](./LICENSE).
 
