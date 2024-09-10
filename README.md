@@ -9,7 +9,7 @@
 
 ## Downloading the fonts
 
-The latest pre-built binaries of the *Last Resort* fonts, which correspond to [Unicode Version 15.1.0](https://www.unicode.org/versions/Unicode15.1.0/), can be easily downloaded from the [Latest Release](https://github.com/unicode-org/last-resort-font/releases/latest/). These fonts may be updated for future versions of the Unicode Standard as time and resources permit.
+The latest pre-built binaries of the *Last Resort* fonts, which correspond to [Unicode Version 16.0.0](https://www.unicode.org/versions/Unicode16.0.0/), can be easily downloaded from the [Latest Release](https://github.com/unicode-org/last-resort-font/releases/latest/). These fonts may be updated for future versions of the Unicode Standard as time and resources permit.
 
 ## Last Resort &amp; Last Resort High-Efficiency
 
@@ -23,7 +23,7 @@ Both fonts’ 'cmap' tables include a [Format 4](https://docs.microsoft.com/en-u
 
 ## Description
 
-The glyphs of the *Last Resort* fonts are used as the backup of “last resort” to any other font: if a font cannot represent any particular Unicode character, the appropriate “missing” glyph from the *Last Resort* fonts is displayed instead. This provides users with the ability to more easily discern what type of character it is, and provides a clue as to what type of font they would need to display the characters properly. For more information, see *The Unicode Standard*, [Section 5.3](https://www.unicode.org/versions/Unicode15.0.0/ch05.pdf), *Unknown and Missing Characters*.
+The glyphs of the *Last Resort* fonts are used as the backup of “last resort” to any other font: if a font cannot represent any particular Unicode character, the appropriate “missing” glyph from the *Last Resort* fonts is displayed instead. This provides users with the ability to more easily discern what type of character it is, and provides a clue as to what type of font they would need to display the characters properly. For more information, see *The Unicode Standard*, [Section 5.3](https://unicode.org/versions/Unicode16.0.0/core-spec/chapter-5/#G7730), *Unknown and Missing Characters*.
 
 Overall, there are a number of advantages to using the *Last Resort* fonts for unrepresentable characters:
 
@@ -46,9 +46,9 @@ The *Last Resort* glyphs were drawn by Apple Inc., Michael Everson of [Evertype]
 
 ## Building the fonts from source
 
-**NOTE**: *The sources and build scripts may be added after Unicode Version 15.1.0 has been released (2023), and as time and resources permit.*
+**NOTE**: *Building the fonts from source requires that [Python Version 3](https://www.python.org/) and [AFDKO](https://github.com/adobe-type-tools/afdko) (Adobe Font Development Kit for OpenType) be installed.*
 
-Updated TrueType fonts may be issued shortly after a new version of the Unicode Standard has been released.
+To build the fonts from source, simply execute the `build.sh` file.
 
 ## Getting Involved
 

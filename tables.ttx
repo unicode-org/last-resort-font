@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.33">
+
+  <OS_2>
+    <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
+         will be recalculated by the compiler -->
+    <version value="4"/>
+    <xAvgCharWidth value="2335"/>
+    <usWeightClass value="400"/>
+    <usWidthClass value="5"/>
+    <fsType value="00000000 00000000"/>
+    <ySubscriptXSize value="1434"/>
+    <ySubscriptYSize value="1331"/>
+    <ySubscriptXOffset value="0"/>
+    <ySubscriptYOffset value="293"/>
+    <ySuperscriptXSize value="1434"/>
+    <ySuperscriptYSize value="1331"/>
+    <ySuperscriptXOffset value="0"/>
+    <ySuperscriptYOffset value="928"/>
+    <yStrikeoutSize value="102"/>
+    <yStrikeoutPosition value="530"/>
+    <sFamilyClass value="0"/>
+    <panose>
+      <bFamilyType value="0"/>
+      <bSerifStyle value="0"/>
+      <bWeight value="4"/>
+      <bProportion value="0"/>
+      <bContrast value="0"/>
+      <bStrokeVariation value="0"/>
+      <bArmStyle value="0"/>
+      <bLetterForm value="0"/>
+      <bMidline value="0"/>
+      <bXHeight value="0"/>
+    </panose>
+    <ulUnicodeRange1 value="11111111 11111111 11111111 11111111"/>
+    <ulUnicodeRange2 value="11111111 11111111 11111111 11111111"/>
+    <ulUnicodeRange3 value="11111111 11111111 11111111 11111111"/>
+    <ulUnicodeRange4 value="00000111 11111111 11111111 11111111"/>
+    <achVendID value="UNIC"/>
+    <fsSelection value="00000000 01000000"/>
+    <usFirstCharIndex value="0"/>
+    <usLastCharIndex value="65535"/>
+    <sTypoAscender value="1707"/>
+    <sTypoDescender value="-512"/>
+    <sTypoLineGap value="18"/>
+    <usWinAscent value="1707"/>
+    <usWinDescent value="512"/>
+    <ulCodePageRange1 value="11100000 00111111 00000001 11111111"/>
+    <ulCodePageRange2 value="11111111 11111111 00000000 00000000"/>
+    <sxHeight value="1195"/>
+    <sCapHeight value="1536"/>
+    <usDefaultChar value="0"/>
+    <usBreakChar value="32"/>
+    <usMaxContext value="0"/>
+  </OS_2>
+
+  <head>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="1.0"/>
+    <fontRevision value="16.000"/>
+    <checkSumAdjustment value="0x4db8e09"/>
+    <magicNumber value="0x5f0f3cf5"/>
+    <flags value="01000000 00101011"/>
+    <unitsPerEm value="2048"/>
+    <created value="Tue Sep 10 00:00:00 2024"/>
+    <modified value="Tue Sep 10 00:00:00 2024"/>
+    <xMin value="128"/>
+    <yMin value="-419"/>
+    <xMax value="2155"/>
+    <yMax value="1707"/>
+    <macStyle value="00000000 00000000"/>
+    <lowestRecPPEM value="3"/>
+    <fontDirectionHint value="2"/>
+    <indexToLocFormat value="1"/>
+    <glyphDataFormat value="0"/>
+  </head>
+
+</ttFont>

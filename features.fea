@@ -1,0 +1,24 @@
+table head {
+  FontRevision 16.000;
+} head;
+
+table hhea {
+  Ascender 1707;
+  Descender -512;
+  LineGap 18;
+} hhea;
+
+table name {
+  nameid 0 "\00A9 2020\20132024 Unicode, Inc.";
+  nameid 1 "Last Resort High-Efficiency";
+  nameid 3 "Last Resort High-Efficiency; 16.000 (Unicode Version 16.0.0); 2024-09-10";
+  nameid 4 "Last Resort High-Efficiency";
+  nameid 5 "16.000 (Unicode Version 16.0.0)";
+  nameid 8 "Unicode, Inc.";
+  nameid 9 "Original design by Apple Inc.; block additions by Michael Everson, Apple Inc., and Unicode, Inc.";
+  nameid 10 "The Last Resort font is used to provide basic Unicode block information for all encoded characters in the standard. Glyphs correspond to Unicode blocks. The block name and hexadecimal range values can be viewed around the border of the glyph at large sizes.";
+  nameid 11 "https://home.unicode.org/";
+  nameid 12 "https://github.com/unicode-org/last-resort-font/";
+  nameid 13 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \0022AS IS\0022 BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+  nameid 14 "https://scripts.sil.org/OFL";
+} name;
