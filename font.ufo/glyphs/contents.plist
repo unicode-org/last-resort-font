@@ -258,8 +258,6 @@
 	<string>lastresortvai.glif</string>
 	<key>lastresortcyrillicextb</key>
 	<string>lastresortcyrillicextb.glif</string>
-	<key>lastresortgurungkhema</key>
-	<string>lastresortgurungkhema.glif</string>
 	<key>lastresortbamum</key>
 	<string>lastresortbamum.glif</string>
 	<key>lastresortmodifiertones</key>
@@ -540,6 +538,8 @@
 	<string>lastresortegyptianhieroglyphsexta.glif</string>
 	<key>lastresortanatolianhieroglyphs</key>
 	<string>lastresortanatolianhieroglyphs.glif</string>
+	<key>lastresortgurungkhema</key>
+	<string>lastresortgurungkhema.glif</string>
 	<key>lastresortbamumsuppl</key>
 	<string>lastresortbamumsuppl.glif</string>
 	<key>lastresortmro</key>

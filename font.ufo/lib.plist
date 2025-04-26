@@ -132,7 +132,6 @@
 		<string>lastresortlisu</string>
 		<string>lastresortvai</string>
 		<string>lastresortcyrillicextb</string>
-		<string>lastresortgurungkhema</string>
 		<string>lastresortbamum</string>
 		<string>lastresortmodifiertones</string>
 		<string>lastresortlatind</string>
@@ -273,6 +272,7 @@
 		<string>lastresortegypthiercontrols</string>
 		<string>lastresortegyptianhieroglyphsexta</string>
 		<string>lastresortanatolianhieroglyphs</string>
+		<string>lastresortgurungkhema</string>
 		<string>lastresortbamumsuppl</string>
 		<string>lastresortmro</string>
 		<string>lastresorttangsa</string>
